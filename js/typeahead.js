@@ -1,16 +1,3 @@
-
-
-
-
-
-/*
-     FILE ARCHIVED ON 4:28:54 oct. 30, 2016 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 13:59:50 févr. 23, 2017.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
 function typeaheadRemoveValue(elem) {
     $('#'+elem).val(0);
     $("[data-typeahead-id='"+elem+"']").val('');
