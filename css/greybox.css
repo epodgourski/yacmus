@@ -1,0 +1,60 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 14:56:31 oct. 27, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:16:55 févr. 24, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+#ya_gbCalc {
+        background:#AAAAAA;
+        opacity:0.5;
+        filter:alpha(opacity=50);
+        position:absolute;
+        left:0px;
+        top:0px;
+        z-index:50;
+        border:solid 0px silver;
+    }
+#ya_gbShadow {
+        opacity:0.5;
+        filter:alpha(opacity=50);
+        z-index:59;
+        background:#444444;
+        position:absolute;
+        }
+#ya_gbFrame {
+        z-index:100; 
+        background:#FFFFFF;
+        text-align:center;
+        text-vertical-align:middle;
+        
+        position:absolute; 
+        left:0px;
+        top:0px; 
+        border:0px;
+        overflow:auto;
+        width:100%;
+        height:100%; 
+        }
+#ya_gbTitle { z-index:65; position:absolute; left:25px; top:25px; right:25px; height:25px; text-vertical-align:middle;background:#555555; padding-top:5px; }
+#ya_gbTitle span { font-size:9pt; font-weight: bold; margin-left:15px;piadding-top:5px; color:white; margin-top : 5px; text-vertical-align : middle; }
+#ya_gbContainer {
+        z-index:60;
+        opacity:1; 
+        background:#FFFFFF;
+        text-align:center;
+        text-vertical-align:middle;
+        position:absolute;
+        
+        border:solid 1px #999999;
+        border-top:solid 25px #AAAAAA;
+        overflow:auto;
+    }
+#ya_gbTitle img { float:right; margin-top:1px;margin-right:8px; }
+#ya_gbTitle img:hover { cursor:pointer; opacity:0.7; margin-top:2px; margin-right:7px;  }

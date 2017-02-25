@@ -1,0 +1,137 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 20:35:23 oct. 27, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:16:54 févr. 24, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/* pagelayout */
+.input-group-addon button { background-color:transparent !important; border:0px; padding:0px; margin:0px;font-size:10px;}
+input.form-horizontal[type='checkbox'] { border:0px;margin-left:10px;margin-top:0px;vertical-align:middle; }
+label { cursor:pointer;}
+
+#title_div { border-bottom: solid 1px silver; _background:#EEEEEE; padding-bottom:0px; margin-bottom:5px;}
+
+#navbar { margin-bottom: 5px; }
+.breadcrumb { font-size: 8pt; padding:2px; }
+#title_div { margin: 10px 2% 0px 2%;font-size: 15pt;padding-top:0px;font-weight:bold;padding-left:10px; }
+.nav-tabs {margin:10px 10px 0px 10px; }
+.tab-content {margin:0px 10px 10px 10px; padding: 5px;border : solid #DDDDDD; border-width : 0px 1px 1px 1px; }
+/* .nav-tabs li  { font-color:black; } */
+.nav-tabs li.active { font-weight:bold; }
+
+.icon .glyphicon { cursor:pointer; }
+
+
+/* workaround : если форма внутри табов, не работает display:none ???? */
+.tab-pane { position: relative; display: none; }
+.in { display: block; }
+/* .tab-pane { background-color: #ieFFFEF; } */
+/* end workaround */
+
+body {
+    margin:0px; padding:0px;
+    }
+
+p {margin: 0; padding: 0;}
+
+.hl { color:red; background-color:yellow; }
+/* form { margin:0px; } */
+input[type=submit]:hover { cursor: pointer; }
+textarea { overflow:auto; }
+ table,img { border:0px; padding:0px;}
+/* option { padding:5px; margin:5px; font-size:11pt;cursor:pointer; }
+select { padding:11px; cursor:pointer; font-size:11pt; } */
+
+
+
+
+button.hidden { background:transparent; border:0px; vertical-align: middle;}
+/* input,textarea { border:solid 1px black; }*/
+a:link,a:active,a { text-decoration:underline; 
+color:black;
+}
+.dropdown a, .nav-tabs a { text-decoration: none; }
+a:visited { color:#777777;}
+
+A:hover { 
+    text-decoration:underline; text-color:black; color:black; 
+    } 
+.commentOnThis,.fo_path,.fo_options { font-size: 8pt; text-decoration:none;}
+.navigation option {
+    font-size:8pt;
+    }
+option.navigation {
+    font-size:8pt;
+    }
+.clear { clear:both;height:0px;color:transparent;background-color:transparent;border:solid 0px transparent; } 
+hr.line {
+    color:silver;
+    font-weight:bold;
+    border:0;
+    border-color:silver;
+    background-color:silver;
+    height:1px;
+    /* clear:both; width:95%;*/
+    }
+
+/*  password protected */
+#ya_passwordProtected { margin-top:20%;text-align:center; }
+
+/* node title */
+.userPic { cursor:pointer; float:left;}
+
+/* load meter */
+
+#ya_loadMeter { 
+    position:absolute; left:35%; top:30%; width:300px;
+    padding: 15px; visibility:hidden;z-index:100;
+    background-color:#EEEEEE;border:solid 1px #AAAAAA;
+    text-align:center;font-size:9pt;font-weight:bold;
+}
+
+/* breadcrumbs */
+.xbreadcrumbs {
+            ifont-size: 13px;
+        }
+        .xbreadcrumbs li {
+            border-right: none;
+            background: url("/web/20161027203523/http://stakheevs.net/my/static/img/separator.gif") no-repeat right center;
+            padding-right: 15px;
+            padding-left: 10px;
+        }
+        .xbreadcrumbs li.current {
+            background: none;
+        }
+        .xbreadcrumbs li ul li {
+            background: none;
+        }
+        .xbreadcrumbs li a.home {
+      //      background: url("/web/20161027203523/http://stakheevs.net/my/static/css/images/home.gif") no-repeat left center;
+            padding-left: 20px;
+        }
+	.xbreadcrumbs {
+		border-right: none;
+            background: url("/web/20161027203523/http://stakheevs.net/my/static/css/images/separator-arrow.gif") no-repeat right center;
+            padding-right: 15px;
+            padding-left: 10px;
+}
+
+
+/* <?php //exit; ?> */
+
+
+#content_div { margin: 0px 25px 0px 25px;  }
+.item_illustration { float:left; }
+#searchForm { text-align:right; margin-right:25px; }
+
+/* comments */
+ .commentOnThis { clear:both; }
+div.commentTitle { background:#EEEEEE; border:solid 1px #DDDDDD; padding:1px;}
+.s_comment { margin-bottom:2px; padding:2px; border:0px;}
